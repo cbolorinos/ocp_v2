@@ -271,7 +271,7 @@
 ----------------------------------*/
 
 .ui-widget {
-	font-family: "Open Sans",Arial,sans-serif/*{ffDefault}*/;
+	font-family: "tenor sans",Arial,sans-serif/*{ffDefault}*/;
 	font-size: 1.1em/*{fsDefault}*/;
 }
 .ui-widget .ui-widget {
@@ -281,7 +281,7 @@
 .ui-widget select,
 .ui-widget textarea,
 .ui-widget button {
-	font-family: "Open Sans",Arial,sans-serif/*{ffDefault}*/;
+	font-family: "tenor sans",Arial,sans-serif/*{ffDefault}*/;
 	font-size: 1em;
 }
 .ui-widget-content {
@@ -676,7 +676,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Oswald", "Georgia", serif;
+  font-family: "Archivo Black", sans-serif;
   color:#124468;
   font-weight:700px;
   letter-spacing: 1px;
@@ -711,10 +711,23 @@ hr {
   height: 80px;
 }
 
-.full {
-  padding: 80px 0 0;
+.herofull {
+  padding: 400px 0 80px;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 100% 100%;
+  background-position: center;
+  max-width: 100%;
+}
+.heroheader{
+	font-size: 2em;
+}
+
+.full {
+  padding: 100px 0 0;
+  background-size: cover;
+  background-position: 100% 100%;
+  background-position: center;
+  max-width: 100%;
 }
 .bluebg {
 	color:white;
@@ -1448,7 +1461,7 @@ body.screenshot {
 }
 
 .slick-prev:before, .slick-next:before {
-  font-family: "Open Sans",Arial,sans-serif/*{ffDefault}*/;
+  font-family: "tenor sans",Arial,sans-serif/*{ffDefault}*/;
   font-size: 20px;
   line-height: 1;
   color: white;
@@ -1534,7 +1547,7 @@ body.screenshot {
   content: "•";
   width: 20px;
   height: 20px;
-  font-family: "Open Sans",Arial,sans-serif/*{ffDefault}*/;
+  font-family: "tenor sans",Arial,sans-serif/*{ffDefault}*/;
   font-size: 6px;
   line-height: 20px;
   text-align: center;
@@ -1778,7 +1791,7 @@ body.screenshot {
 }
 
 .slick-prev:before, .slick-next:before {
-  font-family: "Open Sans",Arial,sans-serif/*{ffDefault}*/;
+  font-family: "tenor sans",Arial,sans-serif/*{ffDefault}*/;
   font-size: 20px;
   line-height: 1;
   color: white;
@@ -1864,7 +1877,7 @@ body.screenshot {
   content: "•";
   width: 20px;
   height: 20px;
-  font-family: "Open Sans",Arial,sans-serif/*{ffDefault}*/;
+  font-family: "tenor sans",Arial,sans-serif/*{ffDefault}*/;
   font-size: 6px;
   line-height: 20px;
   text-align: center;
@@ -1894,7 +1907,7 @@ body.screenshot {
   display: inline-block;
   background: #124468;
   color: #fff;
-  font-family: "Open Sans",Arial,sans-serif/*{ffDefault}*/;
+  font-family: "tenor sans",Arial,sans-serif/*{ffDefault}*/;
   margin-bottom: 0;
   padding: 10px 20px;
   font-style: italic;
@@ -2058,7 +2071,7 @@ body.screenshot {
 }
 
 .slick-prev:before, .slick-next:before {
-  font-family: "Open Sans",Arial,sans-serif/*{ffDefault}*/;
+  font-family: "tenor sans",Arial,sans-serif/*{ffDefault}*/;
   font-size: 20px;
   line-height: 1;
   color: white;
@@ -2144,7 +2157,7 @@ body.screenshot {
   content: "•";
   width: 20px;
   height: 20px;
-  font-family: "Open Sans",Arial,sans-serif/*{ffDefault}*/;
+  font-family: "tenor sans",Arial,sans-serif/*{ffDefault}*/;
   font-size: 6px;
   line-height: 20px;
   text-align: center;
@@ -3420,7 +3433,7 @@ body {
   box-shadow: 5px 5px 0px 0 rgba(0, 0, 0, 0.2);
 }
 .modStylePanel h4 {
-  font-family: "Oswald", serif;
+  font-family: "Archivo Black", sans-serif;
   text-transform: capitalize;
   font-weight: normal;
   letter-spacing: 0.01em;
@@ -3740,7 +3753,7 @@ body {
 }
 
 .slick-prev:before, .slick-next:before {
-  font-family: "Open Sans",Arial,sans-serif/*{ffDefault}*/;
+  font-family: "tenor sans",Arial,sans-serif/*{ffDefault}*/;
   font-size: 20px;
   line-height: 1;
   color: white;
@@ -3826,7 +3839,7 @@ body {
   content: "•";
   width: 20px;
   height: 20px;
-  font-family: "Open Sans",Arial,sans-serif/*{ffDefault}*/;
+  font-family: "tenor sans",Arial,sans-serif/*{ffDefault}*/;
   font-size: 6px;
   line-height: 20px;
   text-align: center;
