@@ -3128,20 +3128,26 @@ body.screenshot {
 .modIconText .icon-text-circle {
   text-align: center;
 }
+.hexagontop{
+	width: 0;
+	border-bottom: 30px solid #124468;
+	border-left: 54px solid transparent;
+	border-right: 54px solid transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
 .modIconText .icon-text-circle i {
   box-sizing: content-box;
   margin-bottom: 2.5rem;
   font-size: 3.42857rem;
   width: 3.42857rem;
   height: 3.42857rem;
-  color: white;
-  border: none;
-  background-color: #124468;
+  color: #124468;
+  border: 2px solid #124468;
+  background-color: none;
   display: inline-block;
   padding: 30px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
+
   -moz-transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
   -webkit-transition: color 0.2s linear;
