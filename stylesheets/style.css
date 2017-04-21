@@ -675,11 +675,17 @@ a:hover {
   color: #999;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
   font-family: "Archivo Black", sans-serif;
   color:#124468;
   font-weight:700px;
   letter-spacing: 1px;
+}
+h3{
+	font-family: "tenor sans",Arial,sans-serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
 .centered-text {
@@ -732,11 +738,7 @@ hr {
 .bluebg {
 	color:white;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#124468+0,0d3149+100 */
-background: #124468; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #124468 0%, #0d3149 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #124468 0%,#0d3149 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #124468 0%,#0d3149 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#124468', endColorstr='#0d3149',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background: #6b6b6b;
 }
 .whitetext{
 	color:white;
@@ -1243,12 +1245,8 @@ form input.error, form textarea.error {
 
 /*Footer */
 #footer {
-  background: #124468; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #124468 0%, #0d3149 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #124468 0%,#0d3149 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #124468 0%,#0d3149 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#124468', endColorstr='#0d3149',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   color: white;
+  background: #6b6b6b;
 }
 #footer h1 {
   margin-bottom: 25px;
@@ -3131,34 +3129,42 @@ body.screenshot {
 .hexagontop{
 	width: 0;
 	border-bottom: 30px solid #124468;
-	border-left: 54px solid transparent;
-	border-right: 54px solid transparent;
+	border-left: 49px solid transparent;
+	border-right: 49px solid transparent;
 	margin-left: auto;
 	margin-right: auto;
 }
 .modIconText .icon-text-circle i {
   box-sizing: content-box;
-  margin-bottom: 2.5rem;
-  font-size: 3.42857rem;
-  width: 3.42857rem;
-  height: 3.42857rem;
-  color: #124468;
-  border: 2px solid #124468;
-  background-color: none;
+  font-size: 2.42857rem;
+  width: 38px;
+  height: 38px;
+  color: white;
+  border: none;
+  background-color: #124468;
   display: inline-block;
-  padding: 30px;
+  padding: 0px 30px;
 
   -moz-transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
   -webkit-transition: color 0.2s linear;
   transition: color 0.2s linear;
 }
+.hexagonbottom{
+	width: 0;
+	margin-bottom: 2.5rem;
+	border-top: 30px solid #124468;
+	border-left: 49px solid transparent;
+	border-right: 49px solid transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
+.hexagon{
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
 .modIconText .icon-text-circle i:before {
   margin: 0;
-}
-.modIconText .icon-text-circle:hover i {
-  background-color:#5dd6ee;
-  color: #124468;
 }
 .modIconText .icon-text-simple i {
   font-size: 3.42857rem;
@@ -3168,9 +3174,7 @@ body.screenshot {
   height: 48px;
   text-align: center;
 }
-.modIconText .icon-text-simple h3, .modIconText .icon-text-simple p {
-  margin-left: 73px;
-}
+
 body {
   overflow-y: scroll;
 }
@@ -3278,19 +3282,38 @@ body {
 .modMilestone {
   text-align: center;
 }
+.whitehexagontop{
+	width: 0;
+	border-bottom: 30px solid white;
+	border-left: 49px solid transparent;
+	border-right: 49px solid transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
 .modMilestone i {
-  font-size: 36px;
+  box-sizing: content-box;
+  font-size: 2.42857rem;
+  width: 38px;
+  height: 38px;
   color: #124468;
-  background: white;
-  width: 90px;
-  height: 90px;
-  -moz-border-radius: 45px;
-  -webkit-border-radius: 45px;
-  border-radius: 45px;
-  text-align: center;
-  padding: 27px;
+  border: none;
+  background-color: white;
   display: inline-block;
-  margin-bottom: 45px;
+  padding: 0px 30px;
+
+  -moz-transition: color 0.2s linear;
+  -o-transition: color 0.2s linear;
+  -webkit-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+}
+.whitehexagonbottom{
+	width: 0;
+	margin-bottom: 2.5rem;
+	border-top: 30px solid white;
+	border-left: 49px solid transparent;
+	border-right: 49px solid transparent;
+	margin-left: auto;
+	margin-right: auto;
 }
 .modMilestone strong {
   font-size: 3.42857rem;
@@ -3575,8 +3598,8 @@ body {
   -moz-border-radius: 18px;
   -webkit-border-radius: 18px;
   border-radius: 18px;
-  background: #124468;
-  color: #fff;
+  background: #fff;
+  color: #124468;
   text-align: center;
   font-size: 1.125rem;
   line-height: 2.5rem;
@@ -3586,7 +3609,7 @@ body {
 }
 .modTeamMember .overlay {
   opacity: 0;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(18, 68, 104, 0.9);
   text-align: center;
   vertical-align: middle;
   width: 100%;
@@ -3601,9 +3624,11 @@ body {
 }
 .modTeamMember .overlay h3 {
   margin-bottom: 10px;
+  color:white;
 }
 .modTeamMember .overlay p {
   font-style: italic;
+  color:white;
   margin-bottom: 30px;
 }
 .modTeamMember .member:hover .overlay {
@@ -3893,7 +3918,7 @@ body {
 @media only screen and (max-width: 60em) {
   .modTeamMember .overlay {
     opacity: 1;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(18, 68, 104, 0.5);
     top: 0;
   }
   .modTeamMember .overlay .intro {
