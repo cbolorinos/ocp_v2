@@ -963,7 +963,7 @@ box-shadow: 1px 1px 1px 1px #474747;
 }
 
 .contain-to-grid {
-  height: 100px;
+  height: 60px;
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
@@ -972,12 +972,15 @@ box-shadow: 1px 1px 1px 1px #474747;
   -o-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
+  background: #333;
 }
 .contain-to-grid .top-bar {
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
+  background:#333;
+  height:60px;
 }
 .contain-to-grid .top-bar .top-bar-section li:not(.has-form) a:not(.button) {
   -moz-transition-property: all;
@@ -990,7 +993,7 @@ box-shadow: 1px 1px 1px 1px #474747;
   transition-duration: 0.2s;
 }
 .contain-to-grid .top-bar-section li:not(.has-form) a:not(.button) {
-  height: 100px;
+  height: 60px;
 }
 .contain-to-grid .top-bar-section .has-dropdown > a:after {
   -moz-transition-property: all;
@@ -1001,11 +1004,12 @@ box-shadow: 1px 1px 1px 1px #474747;
   -o-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
-  top: 3.57143rem;
+  top: 31px;
+  color:white;
 }
 .contain-to-grid .title-area, .contain-to-grid .title-area li, .contain-to-grid .title-area a {
-  height: 100px;
-  line-height: 100px;
+  height: 60px;
+  line-height: 60px;
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
@@ -1016,7 +1020,7 @@ box-shadow: 1px 1px 1px 1px #474747;
   transition-duration: 0.2s;
 }
 .contain-to-grid .title-area img, .contain-to-grid .title-area li img, .contain-to-grid .title-area a img {
-  width: 100%;
+  width: 70%;
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
@@ -1037,6 +1041,10 @@ box-shadow: 1px 1px 1px 1px #474747;
   -o-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
+  background:#333;
+}
+.top-bar-section ul li > a {
+	color:white;
 }
 .f-topbar-fixed.shrink .top-bar .top-bar-section li:not(.has-form) a:not(.button) {
   height: 60px;
@@ -1051,7 +1059,7 @@ box-shadow: 1px 1px 1px 1px #474747;
   transition-duration: 0.2s;
 }
 .f-topbar-fixed.shrink .top-bar .top-bar-section .has-dropdown > a:after {
-  top: 2.14286rem;
+  top: 31px;
 }
 .f-topbar-fixed.shrink .top-bar .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
   height: 60px;
@@ -1060,9 +1068,6 @@ box-shadow: 1px 1px 1px 1px #474747;
 .f-topbar-fixed.shrink .top-bar .title-area, .f-topbar-fixed.shrink .top-bar .title-area li, .f-topbar-fixed.shrink .top-bar .title-area a {
   height: 60px;
   line-height: 60px;
-}
-.f-topbar-fixed.shrink .top-bar .title-area img, .f-topbar-fixed.shrink .top-bar .title-area li img, .f-topbar-fixed.shrink .top-bar .title-area a img {
-  width: 70%;
 }
 
 .contain-to-grid.fullwidth .top-bar {
@@ -3168,6 +3173,13 @@ clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 	margin-right: auto; 
 	text-align: center;
 }
+.bioimg{
+	max-width:250px; 
+	max-height:250px;
+}
+.bioimg:hover{
+	opacity:0.9;
+}
 .intro h3{
 	margin-top:30px;
 	color: #124468;
@@ -3183,10 +3195,15 @@ clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 	text-align: center;
 	font-size: 1.25rem;
 	line-height: 3rem;
-	margin-bottom: 30px;
+	margin: 0 5px 30px 5px;
+}
+.intro a i:hover {
+	background: #5dd6ee;
 }
 .biotext{
 	text-align: left;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 .modIconText .icon-text-circle i:before {
   margin: 0;
