@@ -864,14 +864,14 @@ ul.shortcode-list i {
 .button {
   letter-spacing: 1px;
   color: #fff;
-  background: rgba(64, 64, 64, 0.6);
+  background: #124468;
   border: none;
   -webkit-box-shadow: 1px 1px 1px 1px #474747;
 box-shadow: 1px 1px 1px 1px #474747;
 }
 
 .button:hover {
-  background: rgba(64, 64, 64, 1);
+  background: #5dd6ee;
   border: none;
   color: #fff;
   -webkit-box-shadow: 1px 1px 1px 1px #474747;

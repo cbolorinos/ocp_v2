@@ -5963,15 +5963,11 @@ meta.foundation-mq-topbar {
     line-height: 7.14286rem;
   }
   .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background-color: #124468;
-    background: #124468;
-    color:white;
+
   }
   .top-bar-section li.active:not(.has-form) a:not(.button) {
     padding: 0 1.42857rem;
     line-height: 7.14286rem;
-    color: white;
-    background: #124468;
   }
   .top-bar-section li.active:not(.has-form) a:not(.button):hover {
     background: #f2f2f2;
@@ -6043,11 +6039,9 @@ meta.foundation-mq-topbar {
   }
   .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
     color: white;
-    background: #124468;
   }
   .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
-    color: #124468;
-    background-color: #5dd6ee;
+    color: #333333;
   }
   .top-bar-section .dropdown li label {
     white-space: nowrap;
