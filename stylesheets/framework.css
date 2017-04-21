@@ -5581,12 +5581,7 @@ meta.foundation-mq-topbar {
   line-height: 7.14286rem;
   font-size: 1.21429rem;
   margin: 0;
-  text-align: center;
 }
-.top-bar .name h1:hover {
-  background: white;
-}
-
 .top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
   font-weight: normal;
   color: #999;
@@ -5676,7 +5671,7 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li > a {
   display: block;
   width: 100%;
-  color: #124468;
+  color: white;
   padding: 12px 0 12px 0;
   padding-left: 1.42857rem;
   font-family: "tenor sans",Arial,sans-serif/*{ffDefault}*/;
@@ -5965,14 +5960,14 @@ meta.foundation-mq-topbar {
   }
   .top-bar-section li:not(.has-form) a:not(.button) {
     padding: 0 1.42857rem;
-    line-height: 60px;
+    line-height: 7.14286rem;
   }
   .top-bar-section li:not(.has-form) a:not(.button):hover {
 
   }
   .top-bar-section li.active:not(.has-form) a:not(.button) {
     padding: 0 1.42857rem;
-    line-height: 60px;
+    line-height: 7.14286rem;
   }
   .top-bar-section li.active:not(.has-form) a:not(.button):hover {
     background: #f2f2f2;
