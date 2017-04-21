@@ -5618,7 +5618,7 @@ meta.foundation-mq-topbar {
   height: 34px;
   line-height: 33px;
   padding: 0 3.21429rem 0 1.42857rem;
-  color: #124468;
+  color: white;
   position: relative;
 }
 .top-bar .toggle-topbar.menu-icon a span::after {
@@ -5972,7 +5972,7 @@ meta.foundation-mq-topbar {
   }
   .top-bar-section li.active:not(.has-form) a:not(.button) {
     padding: 0 1.42857rem;
-    line-height: 7.14286rem;
+    line-height: 60px;
   }
   .top-bar-section li.active:not(.has-form) a:not(.button):hover {
     background: #f2f2f2;
