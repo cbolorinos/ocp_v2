@@ -716,7 +716,6 @@ hr {
 .spacing.four {
   height: 80px;
 }
-
 .herofull {
   padding: 400px 0 80px;
   background-size: cover;
@@ -727,7 +726,12 @@ hr {
 .heroheader{
 	font-size: 2em;
 }
-
+.logobig{
+	display:inline; 
+}
+.logosmall{
+	display:none; 
+}
 .full {
   padding: 100px 0 0;
   background-size: cover;
@@ -867,7 +871,11 @@ ul.shortcode-list i {
   background: #124468;
   border: none;
   -webkit-box-shadow: 1px 1px 1px 1px #474747;
-box-shadow: 1px 1px 1px 1px #474747;
+  box-shadow: 1px 1px 1px 1px #474747;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "tenor sans",Arial,sans-serif;
+
 }
 
 .button:hover {
@@ -985,9 +993,6 @@ box-shadow: 1px 1px 1px 1px #474747;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
-.contain-to-grid .top-bar-section li:not(.has-form) a:not(.button) {
-  height: 100px;
-}
 .contain-to-grid .top-bar-section .has-dropdown > a:after {
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -1012,7 +1017,6 @@ box-shadow: 1px 1px 1px 1px #474747;
   transition-duration: 0.2s;
 }
 .contain-to-grid .title-area img, .contain-to-grid .title-area li img, .contain-to-grid .title-area a img {
-  width: 100%;
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
@@ -3124,7 +3128,7 @@ body.screenshot {
 }
 .hexagontop{
 	width: 0;
-	border-bottom: 30px solid #124468;
+	border-bottom: 14px solid #124468;
 	border-left: 49px solid transparent;
 	border-right: 49px solid transparent;
 	margin-left: auto;
@@ -3139,7 +3143,7 @@ body.screenshot {
   border: none;
   background-color: #124468;
   display: inline-block;
-  padding: 0px 30px;
+  padding: 9px 30px;
 
   -moz-transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
@@ -3149,15 +3153,11 @@ body.screenshot {
 .hexagonbottom{
 	width: 0;
 	margin-bottom: 2.5rem;
-	border-top: 30px solid #124468;
+	border-top: 14px solid #124468;
 	border-left: 49px solid transparent;
 	border-right: 49px solid transparent;
 	margin-left: auto;
 	margin-right: auto;
-}
-.hexagon{
-	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 .biopic{
 	margin-left: auto;
@@ -3308,7 +3308,7 @@ body {
 }
 .whitehexagontop{
 	width: 0;
-	border-bottom: 30px solid white;
+	border-bottom: 14px solid white;
 	border-left: 49px solid transparent;
 	border-right: 49px solid transparent;
 	margin-left: auto;
@@ -3323,7 +3323,7 @@ body {
   border: none;
   background-color: white;
   display: inline-block;
-  padding: 0px 30px;
+  padding: 9px 30px;
 
   -moz-transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
@@ -3333,7 +3333,7 @@ body {
 .whitehexagonbottom{
 	width: 0;
 	margin-bottom: 2.5rem;
-	border-top: 30px solid white;
+	border-top: 14px solid white;
 	border-left: 49px solid transparent;
 	border-right: 49px solid transparent;
 	margin-left: auto;
@@ -3939,7 +3939,7 @@ body {
 .modTestimonials.simple .slick-slider {
   margin-bottom: 10px;
 }
-@media only screen and (max-width: 60em) {
+@media only screen and (max-width: 960px) {
   .modTeamMember .overlay {
     opacity: 1;
     background-color: rgba(18, 68, 104, 0.5);
@@ -4084,6 +4084,7 @@ body {
   .f-topbar-fixed.shrink .top-bar .title-area a img {
     width: auto;
   }
+
 }
 @media only screen and (max-width: 767px) {
   .modDefaultSlider .sequence .title h2 {
@@ -4123,6 +4124,12 @@ body {
   }
 }
 @media only screen and (max-width: 480px) {
+  .logobig{
+  	display: none;
+  }
+  .logosmall{
+  	display: inline;
+  }
   .modDefaultSlider .sequence .title h2 {
     font-size: 2.14286rem;
     line-height: 3.14286rem;
