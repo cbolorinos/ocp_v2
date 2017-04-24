@@ -1242,7 +1242,7 @@ form input.error, form textarea.error {
 /*Footer */
 #footer {
   color: white;
-  background: #6b6b6b;
+  background: #333;
 }
 #footer h1 {
   margin-bottom: 25px;
