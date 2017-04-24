@@ -754,6 +754,10 @@ hr {
 .parallax {
   background-attachment: fixed;
 }
+.map{
+	height: 400px;
+	width: 100%;
+}
 
 ul.shortcode-list {
   list-style: none;
@@ -1059,10 +1063,10 @@ box-shadow: 1px 1px 1px 1px #474747;
 }
 .f-topbar-fixed.shrink .top-bar .title-area, .f-topbar-fixed.shrink .top-bar .title-area li, .f-topbar-fixed.shrink .top-bar .title-area a {
   height: 60px;
-  line-height: 60px;
 }
 .f-topbar-fixed.shrink .top-bar .title-area img, .f-topbar-fixed.shrink .top-bar .title-area li img, .f-topbar-fixed.shrink .top-bar .title-area a img {
   width: 70%;
+  margin-bottom: 35px;
 }
 
 .contain-to-grid.fullwidth .top-bar {
