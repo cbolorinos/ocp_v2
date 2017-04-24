@@ -726,11 +726,13 @@ hr {
 .heroheader{
 	font-size: 2em;
 }
-.logobig{
-	display:inline; 
-}
-.logosmall{
-	display:none; 
+.logo{
+	font-family: "Open Sans", Arial,sans-serif;
+	font-size: 1rem;
+	text-transform: uppercase;
+	color:white;
+	height: 100%;
+	margin-left: 15px;
 }
 .full {
   padding: 100px 0 0;
@@ -1062,11 +1064,12 @@ box-shadow: 1px 1px 1px 1px #474747;
   line-height: 60px;
 }
 .f-topbar-fixed.shrink .top-bar .title-area, .f-topbar-fixed.shrink .top-bar .title-area li, .f-topbar-fixed.shrink .top-bar .title-area a {
-  height: 60px;
+  height: 36px;
+  line-height: 60px;
 }
 .f-topbar-fixed.shrink .top-bar .title-area img, .f-topbar-fixed.shrink .top-bar .title-area li img, .f-topbar-fixed.shrink .top-bar .title-area a img {
   width: 70%;
-  margin-bottom: 35px;
+  margin-bottom: 0px;
 }
 
 .contain-to-grid.fullwidth .top-bar {
@@ -4128,12 +4131,6 @@ body {
   }
 }
 @media only screen and (max-width: 480px) {
-  .logobig{
-  	display: none;
-  }
-  .logosmall{
-  	display: inline;
-  }
   .modDefaultSlider .sequence .title h2 {
     font-size: 2.14286rem;
     line-height: 3.14286rem;
