@@ -148,7 +148,6 @@ select {
 }
 
 .rowheader{
-  margin-top: 80px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -5638,6 +5637,9 @@ meta.foundation-mq-topbar {
   background: #fff;
 }
 .top-bar.expanded .toggle-topbar a {
+  color: #888888;
+}
+.top-bar.expanded .name a {
   color: #888888;
 }
 .top-bar.expanded .toggle-topbar a span::after {
