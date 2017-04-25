@@ -717,16 +717,19 @@ hr {
   height: 80px;
 }
 .herofull {
-  padding: 50px 0 500px;
+  padding: 110px 0 440px;
   background-size: cover;
   background-position: 100% 100%;
   background-position: center;
   max-width: 100%;
 }
 .herotext{
-	margin-bottom: 337px;
+	margin-bottom: 277px;
 	max-width: 700px;
-	color:#333;
+	text-align: center;
+	margin-right: auto;
+	margin-left:auto;
+	color:white;
 }
 .heroheader{
 	font-size: 2em;
