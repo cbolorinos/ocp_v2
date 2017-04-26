@@ -778,6 +778,87 @@ hr {
    top:400px;  /* your iframe height */
    margin-top:-400px;  /* your iframe height */
 }
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50px;
+    width: 2px;
+    margin-left: -1.5px;
+    border: #124468 1px dotted;
+}
+.timeline > li {
+    position: relative;
+    margin-bottom: 150px;
+    min-height: 50px;
+}
+.timeline > li .timeline-image {
+    position: absolute;
+    left: 0;
+    margin-left: 0;
+    text-align: center;
+}
+.timeline > li .timeline-panel {
+    float: right;
+    position: relative;
+    width: 100%;
+    padding: 0 20px 0 115px;
+    text-align: left;
+}
+.timeline .timeline-body > p, .timeline .timeline-body > ul {
+    margin-bottom: 0;
+}
+.timeline-image i {
+    box-sizing: content-box;
+    font-size: 2.42857rem;
+    width: 38px;
+    height: 38px;
+    color: white;
+    border: none;
+    background-color: #124468;
+    display: inline-block;
+    padding: 9px 30px;
+}
+
+@media(min-width: 768px){
+	.timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    margin-left: -1.5px;
+    margin-bottom: 20px;
+    border: #124468 1px dotted;
+	}
+	.timeline > li .timeline-image {
+	    left: 50%;
+	    margin-left: -50px;
+	}
+	.timeline > li .timeline-panel {
+	    float: left;
+	    width: 41%;
+	    padding: 0 20px 20px 30px;
+	    text-align: right;
+	}
+	.timeline > li {
+    margin-bottom: 150px;
+    min-height: 100px;
+	}
+	.timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    padding: 0 30px 20px 20px;
+    text-align: left;
+	}
+
+}
 
 ul.shortcode-list {
   list-style: none;
@@ -3172,11 +3253,6 @@ body.screenshot {
   background-color: #124468;
   display: inline-block;
   padding: 9px 30px;
-
-  -moz-transition: color 0.2s linear;
-  -o-transition: color 0.2s linear;
-  -webkit-transition: color 0.2s linear;
-  transition: color 0.2s linear;
 }
 .hexagonbottom{
 	width: 0;
