@@ -770,6 +770,14 @@ hr {
 	height: 400px;
 	width: 100%;
 }
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:100%;
+   height:400px; /* your iframe height */
+   top:400px;  /* your iframe height */
+   margin-top:-400px;  /* your iframe height */
+}
 
 ul.shortcode-list {
   list-style: none;
@@ -888,7 +896,6 @@ ul.shortcode-list i {
   border: none;
   -webkit-box-shadow: 1px 1px 1px 1px #474747;
   box-shadow: 1px 1px 1px 1px #474747;
-  font-size: 20px;
   text-transform: uppercase;
   font-family: "tenor sans",Arial,sans-serif;
 
@@ -1264,6 +1271,10 @@ form input.error, form textarea.error {
 #footer {
   color: white;
   background: #333;
+}
+.footerheader{
+  font-family: "tenor sans",Arial,sans-serif;
+  text-transform: uppercase;
 }
 #footer h1 {
   margin-bottom: 25px;
