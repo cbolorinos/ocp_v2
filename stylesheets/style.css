@@ -764,7 +764,6 @@ hr {
 }
 
 .parallax {
-  background-attachment: fixed;
 }
 .map{
 	height: 400px;
@@ -788,33 +787,35 @@ hr {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 50px;
-    width: 2px;
+    left: 50%;
+    width: 1px;
     margin-left: -1.5px;
+    margin-bottom: 20px;
     border: #124468 1px dotted;
-}
+	}
 .timeline > li {
     position: relative;
-    margin-bottom: 150px;
-    min-height: 50px;
+    margin-bottom: 50px;
+    min-height: 100px;
+    overflow: hidden;
 }
 .timeline > li .timeline-image {
     position: absolute;
-    left: 0;
-    margin-left: 0;
     text-align: center;
+    left: 50%;
+	margin-left: -50px;
 }
 .timeline > li .timeline-panel {
-    float: right;
     position: relative;
-    width: 100%;
-    padding: 0 20px 0 115px;
-    text-align: left;
+    float: left;
+	width: 41%;
+	padding: 0 20px 20px 30px;
+	text-align: right;
 }
 .timeline .timeline-body > p, .timeline .timeline-body > ul {
     margin-bottom: 0;
 }
-.timeline-image i {
+.timeline-image i{
     box-sizing: content-box;
     font-size: 2.42857rem;
     width: 38px;
@@ -825,33 +826,27 @@ hr {
     display: inline-block;
     padding: 9px 30px;
 }
+.timeline-image a{
+    box-sizing: content-box;
+    font-size: 1rem;
+    width: 38px;
+    height: 38px;
+    color: white;
+    border: none;
+    background-color: #124468;
+    display: inline-block;
+    padding: 9px 30px;
+    text-align: center;
+    overflow: hidden;
+}
+.timeline-heading h3{
+	margin-top: 10px;
+}
+.timeline-end {
+	padding-bottom: 0px;
+}
 
 @media(min-width: 768px){
-	.timeline::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    width: 1px;
-    margin-left: -1.5px;
-    margin-bottom: 20px;
-    border: #124468 1px dotted;
-	}
-	.timeline > li .timeline-image {
-	    left: 50%;
-	    margin-left: -50px;
-	}
-	.timeline > li .timeline-panel {
-	    float: left;
-	    width: 41%;
-	    padding: 0 20px 20px 30px;
-	    text-align: right;
-	}
-	.timeline > li {
-    margin-bottom: 150px;
-    min-height: 100px;
-	}
 	.timeline > li.timeline-inverted > .timeline-panel {
     float: right;
     padding: 0 30px 20px 20px;
@@ -4191,6 +4186,35 @@ body {
 
 }
 @media only screen and (max-width: 767px) {
+  
+  .timeline > li .timeline-panel {
+ 	    float: right;
+	    width: 41%;
+	    text-align: right;
+	    width: 100%;
+	    padding: 0 20px 0 115px;
+	    text-align: left;
+	}
+  .timeline > li {
+    min-height: 50px;
+    }
+  .timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50px;
+    width: 2px;
+    margin-left: -1.5px;
+    border: #124468 1px dotted;
+	}
+  .timeline > li .timeline-image {
+	    left: 0;
+    	margin-left: 0;
+  }	
+  .timeline-end{
+  	padding-bottom: 40px;
+  }
   .modDefaultSlider .sequence .title h2 {
     font-size: 2.85714rem;
     line-height: 3.85714rem;
